@@ -45,7 +45,7 @@ Program to implement the given logic function and to verify its operations in qu
  assign f1=((~b&~d)|(~a&b&d)|(a&b&~c));
  endmodule
 
-module EX2(w,x,y,z,f2);
+ module EX2(w,x,y,z,f2);
  input w,x,y,z;
  output f2;
  assign f2=((~y&z)|(w&y)|(x&y));
